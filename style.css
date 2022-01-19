@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ ul {
+     list-style-type: none;
+ }
+ .logo {
+     width: 75px;
+    height: 70px;
+ }
+ h1 {
+     font-size: 60px;
+     color: white;
+ }
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ .menu {
+     display: flex;
+     margin-top: 10px;
+
+ }
+ .menu-list {
+     display: flex;
+     justify-content: space-around;
+     flex-grow: 1;
+ }
+ .menu-list a {
+     font-size: 30px;
+     color: #2A3D8F;
+ }
+ .slogan {
+     background-image: url(img/innsbruck1.png);
+     height: 560px;
+     display: flex;
+    align-items: center;
+    }
+
+
+footer {
+    background-color: #B5D4C5;
+    padding: 35px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-list {
+    display: flex;
+}
+.footer-list li {
+    margin: 0 10px;
+}
+h2 {
+    color: #2A3D8F;
+    font-size: 36px;
+}
+h3 {
+    font-size: 30px;
+}
+.marketing {
+    background-image:url(img/skier.png) ;
+    background-repeat:no-repeat ;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.marketing p {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.marketing a {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 5px 10px;
+    background-color: tomato;
+    color: chartreuse;
+    text-transform: uppercase;
+    align-self: flex-end;
+    opacity: 0.7;
+}
+.graph {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c0c0c0;
+}
+.graph figcaption {
+    background-color: rgb(124, 124, 124);
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+}
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.gallery-list li {
+    background-color: #B5D4C5;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.gallery-list h3 {
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: white;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table th, td {
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 5px;
+}
+thead {
+    background-color: rgb(32, 46, 92);
+    color: white;
+}
+.numbers-list {
+    list-style-type: "✔";
+}
